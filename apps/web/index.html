@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>FileForge — Convert files in the browser</title>
+</head>
+<body>
+  <h1>Convert files without installing software.</h1>
+  <input type="file" id="file" />
+  <select id="target">
+    <option value="pdf">PDF</option>
+    <option value="png">PNG</option>
+    <option value="jpg">JPG</option>
+  </select>
+  <button id="go">Convert</button>
+  <p id="status">Engine hook is in apps/engine/convert.js</p>
+  <script type="module">
+    import { planConvert } from '../engine/convert.js';
+    document.getElementById('go').onclick = () => {
+      const f = document.getElementById('file').files[0];
+      const t = document.getElementById('target').value;
+      document.getElementById('status').textContent = f
+        ? planConvert(f.name, t)
+        : 'Choose a file';
+    };
+  </script>
+</body>
+</html>
