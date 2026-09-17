@@ -1,12 +1,19 @@
-html,body{margin:0;background:#eef6ff;color:#111827;font-family:system-ui,sans-serif}
-.nav{display:flex;justify-content:space-between;padding:18px 24px}
-.brand{font-weight:800;text-decoration:none;color:inherit}
-nav a{margin-left:16px;color:#1d4ed8}
-.hero{padding:48px 24px;max-width:820px}
-h1{font-size:clamp(34px,6vw,56px);line-height:1.06}
-.lede{color:#6b7280;font-size:19px}
-.btn{display:inline-block;margin-top:22px;background:#1d4ed8;color:#fff;text-decoration:none;padding:14px 18px;border-radius:12px;font-weight:700}
-.grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));padding:0 24px 48px}
-article{background:#fff;padding:16px;border-radius:16px}
-footer{padding:24px;color:#6b7280}
-.kicker{letter-spacing:.1em;text-transform:uppercase;font-size:12px;color:#1d4ed8}
+:root{--ink:#e8eefc;--dim:#8b9cc8;--acc:#6ea8ff;--bg:#070b16}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:var(--bg);color:var(--ink);font-family:Instrument Sans,system-ui,sans-serif}
+.bg{position:fixed;inset:0;background:radial-gradient(900px 500px at 10% -10%,#1a3a7a55,transparent),radial-gradient(700px 400px at 100% 0,#123 0,transparent);z-index:-1}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:22px 7vw;position:sticky;top:0;backdrop-filter:blur(12px)}
+nav a{color:var(--dim);text-decoration:none;margin-left:22px;font-size:14px}
+.pill{border:1px solid #2b4578;padding:8px 12px;border-radius:999px;color:var(--ink)!important}
+.hero{padding:10vh 7vw 8vh;max-width:1100px}
+.kicker{letter-spacing:.16em;text-transform:uppercase;font-size:12px;color:var(--acc)}
+h1{font-size:clamp(40px,7vw,84px);line-height:.95;margin:.2em 0 .35em;letter-spacing:-.04em}
+.lede{max-width:560px;color:var(--dim);font-size:19px}
+.row{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{background:var(--ink);color:#070b16;text-decoration:none;padding:14px 18px;font-weight:700;border-radius:12px}
+.ghost{color:var(--ink);text-decoration:none;padding:14px 18px;border:1px solid #2b4578;border-radius:12px}
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;padding:0 7vw 10vh}
+.card{background:#0c1426;border:1px solid #1c2b4d;padding:22px;border-radius:18px}
+.card span{color:var(--acc);font-size:12px}
+footer{display:flex;justify-content:space-between;padding:24px 7vw 40px;color:var(--dim);font-size:13px}
+footer a{color:var(--dim)}
