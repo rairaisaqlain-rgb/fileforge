@@ -1,4 +1,21 @@
-body{margin:0;background:#070b16;color:#e8eefc;font-family:system-ui,sans-serif;text-align:center}
-.navline{padding:16px}.banner{width:min(1100px,94vw);border:1px solid #5a1a28}
-.hero{padding:24px 16px 64px}.btn-primary{display:inline-block;margin-top:16px;background:#e10600;color:#fff;text-decoration:none;padding:14px 22px;font-weight:700}
-a{color:#7eb0ff}
+:root{--red:#e5322d;--text:#33333b;--muted:#6b6b76;--card:#fff;--bg:#f5f5f7;--line:#ececf0}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Arial,system-ui,sans-serif;color:var(--text);background:#fff}
+a{color:inherit}.wrap{width:min(1120px,92vw);margin:0 auto}
+header{display:flex;align-items:center;justify-content:space-between;padding:16px 0;border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:22px;text-decoration:none}
+.mark{width:28px;height:28px;border-radius:6px;background:var(--red)}
+header nav{display:flex;gap:18px;font-size:14px;color:var(--muted)}
+.hero{text-align:center;padding:56px 0 28px}
+.hero h1{font-size:clamp(28px,4vw,44px);margin:0 0 12px;letter-spacing:-.03em}
+.hero p{max-width:640px;margin:0 auto;color:var(--muted);font-size:18px;line-height:1.5}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:28px 0 8px}
+.tabs span{border:1px solid var(--line);border-radius:20px;padding:8px 14px;font-size:13px;color:var(--muted)}
+.tabs .on{background:#111;color:#fff;border-color:#111}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px;padding:12px 0 48px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px 18px 18px;min-height:168px;text-align:left}
+.card .ico{width:40px;height:40px;border-radius:10px;display:grid;place-items:center;color:#fff;font-weight:800;margin-bottom:12px}
+.card h3{margin:0 0 6px;font-size:18px}.card p{margin:0;color:var(--muted);font-size:13px;line-height:1.45}
+.live .ico{background:#2b6cb0}.soon .ico{background:#9aa0ae}.soon{opacity:.72}
+.cta{text-align:center;padding:8px 0 64px}.btn{display:inline-block;background:var(--red);color:#fff;text-decoration:none;font-weight:700;padding:14px 22px;border-radius:8px}
+.note{font-size:13px;color:var(--muted);margin-top:12px}
+footer{border-top:1px solid var(--line);padding:28px 0 48px;color:var(--muted);font-size:13px}
