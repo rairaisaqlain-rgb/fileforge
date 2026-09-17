@@ -1,66 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#070b14"/>
-      <stop offset="1" stop-color="#12040a"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="80%" cy="30%" r="50%">
-      <stop offset="0" stop-color="#ff2a2a" stop-opacity=".35"/>
-      <stop offset="1" stop-color="#000" stop-opacity="0"/>
-    </radialGradient>
-  </defs>
-  <rect width="1280" height="720" fill="url(#bg)"/>
-  <rect width="1280" height="720" fill="url(#glow)"/>
-  <g fill="none" stroke="#3a1020" stroke-width="1" opacity=".5">
-    <path d="M0 80 H1280 M0 160 H1280 M0 240 H1280 M0 320 H1280 M0 400 H1280 M0 480 H1280 M0 560 H1280 M0 640 H1280"/>
-    <path d="M80 0 V720 M160 0 V720 M240 0 V720 M320 0 V720 M400 0 V720 M480 0 V720 M560 0 V720 M640 0 V720 M720 0 V720 M800 0 V720 M880 0 V720 M960 0 V720 M1040 0 V720 M1120 0 V720 M1200 0 V720"/>
-  </g>
-  <text x="640" y="36" text-anchor="middle" fill="#dbe4ff" font-family="Arial,sans-serif" font-size="16" font-weight="700">Website Navigation: Home • Downloads • Docs • Modules</text>
+  <rect width="1280" height="720" fill="#070b16"/>
+  <text x="640" y="36" text-anchor="middle" fill="#dbe4ff" font-family="Arial,sans-serif" font-size="16" font-weight="700">Website Navigation: Home • Updates • Downloads • Modules</text>
   <rect x="40" y="56" width="1200" height="608" fill="#0a0e18" stroke="#5a1a28" stroke-width="2"/>
   <rect x="56" y="76" width="430" height="46" fill="#e10600"/>
   <text x="76" y="108" fill="#fff" font-family="Arial,sans-serif" font-size="26" font-weight="700">FILEFORGE</text>
   <text x="76" y="186" fill="#fff" font-family="Arial,sans-serif" font-size="42" font-weight="700">WINDOWS CONVERTER</text>
   <text x="76" y="234" fill="#fff" font-family="Arial,sans-serif" font-size="42" font-weight="700">JPG · PDF · PNG · TXT</text>
-  <rect x="76" y="258" width="620" height="36" fill="#e10600"/>
-  <text x="88" y="283" fill="#fff" font-family="Arial,sans-serif" font-size="16" font-weight="700">KERNELX LAB · FOUNDERS ZIP · 180 DAYS FREE · NO SUITE</text>
-  <g font-family="Arial,sans-serif" font-size="13" font-weight="700">
-    <rect x="76" y="312" width="130" height="28" rx="14" fill="#1b3a8a"/>
-    <text x="141" y="331" text-anchor="middle" fill="#fff">Latest drop</text>
-    <rect x="214" y="312" width="110" height="28" rx="14" fill="#222"/>
-    <text x="269" y="331" text-anchor="middle" fill="#fff">Windows</text>
-    <rect x="332" y="312" width="150" height="28" rx="14" fill="#157a3a"/>
-    <text x="407" y="331" text-anchor="middle" fill="#fff">Founders free</text>
-    <rect x="490" y="312" width="120" height="28" rx="14" fill="#0a6aa0"/>
-    <text x="550" y="331" text-anchor="middle" fill="#fff">pannki.com</text>
-  </g>
-  <g fill="#d7deef" font-family="Arial,sans-serif">
-    <rect x="76" y="368" width="200" height="86" fill="#121826" stroke="#2a3348"/>
-    <text x="88" y="396" font-size="13" font-weight="700" fill="#fff">ONE ZIP</text>
-    <text x="88" y="418" font-size="12">fileforge.exe inside</text>
-    <rect x="286" y="368" width="200" height="86" fill="#121826" stroke="#2a3348"/>
-    <text x="298" y="396" font-size="13" font-weight="700" fill="#fff">FORMATS</text>
-    <text x="298" y="418" font-size="12">JPG PDF PNG TXT</text>
-    <rect x="496" y="368" width="200" height="86" fill="#121826" stroke="#2a3348"/>
-    <text x="508" y="396" font-size="13" font-weight="700" fill="#fff">NOT A SUITE</text>
-    <text x="508" y="418" font-size="12">no 40-tool toolbar</text>
-  </g>
+  <rect x="76" y="258" width="560" height="36" fill="#e10600"/>
+  <text x="88" y="283" fill="#fff" font-family="Arial,sans-serif" font-size="16" font-weight="700">KERNELX LAB · FOUNDERS ACCESS · NO SUITE</text>
   <rect x="720" y="90" width="500" height="280" fill="#0d1528" stroke="#4aa3ff" stroke-width="2"/>
   <rect x="736" y="106" width="468" height="28" fill="#152038"/>
   <text x="752" y="126" fill="#8eb4ff" font-family="Arial,sans-serif" font-size="14">fileforge.exe</text>
-  <text x="752" y="170" fill="#cfe0ff" font-family="Arial,sans-serif" font-size="18">Drop a file → pick a format → save</text>
-  <text x="752" y="200" fill="#7f93b8" font-family="Arial,sans-serif" font-size="14">https://pannki.com/fileforge.zip</text>
+  <text x="752" y="190" fill="#cfe0ff" font-family="Arial,sans-serif" font-size="18">Drop a file → pick a format → save</text>
   <rect x="76" y="470" width="1128" height="54" fill="#e10600"/>
-  <text x="96" y="505" fill="#fff" font-family="Arial,sans-serif" font-size="20" font-weight="700">ONE TOOL. ONE ZIP. FOUNDERS ACCESS UNTIL 16 MAR 2027.</text>
-  <g fill="#9eb0d4" font-family="Arial,sans-serif" font-size="12">
-    <text x="90" y="560" fill="#5aa0ff" font-size="13" font-weight="700">DOWNLOAD</text>
-    <text x="90" y="578">pannki.com/fileforge.zip</text>
-    <text x="340" y="560" fill="#5aa0ff" font-size="13" font-weight="700">SITE</text>
-    <text x="340" y="578">github.io/fileforge</text>
-    <text x="560" y="560" fill="#5aa0ff" font-size="13" font-weight="700">OS</text>
-    <text x="560" y="578">Windows x64</text>
-    <text x="760" y="560" fill="#5aa0ff" font-size="13" font-weight="700">DAY 181</text>
-    <text x="760" y="578">$9 / month</text>
-    <text x="980" y="560" fill="#5aa0ff" font-size="13" font-weight="700">LAB</text>
-    <text x="980" y="578">KERNELX</text>
-  </g>
+  <text x="96" y="505" fill="#fff" font-family="Arial,sans-serif" font-size="20" font-weight="700">ONE TOOL. ONE JOB. FOUNDERS WINDOW OPEN.</text>
 </svg>
