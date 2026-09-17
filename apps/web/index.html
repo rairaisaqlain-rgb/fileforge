@@ -2,27 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>FileForge — Convert files in the browser</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FileForge — Convert files in your browser</title>
+  <style>
+    :root { --ink:#111827; --muted:#6b7280; --bg:#eef6ff; --acc:#1d4ed8; --card:#fff; }
+    * { box-sizing:border-box }
+    body { margin:0; font-family:Inter,system-ui,sans-serif; background:var(--bg); color:var(--ink); }
+    .wrap { max-width:880px; margin:0 auto; padding:36px 20px 80px; }
+    h1 { font-size:clamp(32px,6vw,54px); line-height:1.08; margin:10px 0 14px; }
+    .sub { font-size:19px; color:var(--muted); max-width:640px; }
+    .cta { display:inline-block; margin-top:26px; background:var(--acc); color:#fff; text-decoration:none; padding:15px 22px; font-weight:700; border-radius:12px; }
+    .note { color:var(--muted); font-size:14px; margin-top:10px; }
+    .grid { display:grid; gap:14px; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); margin:36px 0; }
+    .card { background:var(--card); padding:18px; border-radius:16px; }
+  </style>
 </head>
 <body>
-  <h1>Convert files without installing software.</h1>
-  <input type="file" id="file" />
-  <select id="target">
-    <option value="pdf">PDF</option>
-    <option value="png">PNG</option>
-    <option value="jpg">JPG</option>
-  </select>
-  <button id="go">Convert</button>
-  <p id="status">Engine hook is in apps/engine/convert.js</p>
-  <script type="module">
-    import { planConvert } from '../engine/convert.js';
-    document.getElementById('go').onclick = () => {
-      const f = document.getElementById('file').files[0];
-      const t = document.getElementById('target').value;
-      document.getElementById('status').textContent = f
-        ? planConvert(f.name, t)
-        : 'Choose a file';
-    };
-  </script>
+  <div class="wrap">
+    <p style="letter-spacing:.1em;text-transform:uppercase;font-size:12px;color:var(--acc)">Founders · 6 months free</p>
+    <h1>Convert files without installing a suite.</h1>
+    <p class="sub">JPG ↔ PDF, PNG ↔ JPG, TXT → PDF. Founders build: unlimited conversions for 180 days. Day 181 becomes $9/mo unless you cancel.</p>
+    <a class="cta" href="http://pannki.com/fileforge.zip">Download FileForge.zip</a>
+    <p class="note">http://pannki.com/fileforge.zip · Prefer local/browser processing in v1 · No card required now</p>
+    <div class="grid">
+      <div class="card"><strong>Free window</strong><p>100 founders, 6 months, no daily cap.</p></div>
+      <div class="card"><strong>After day 181</strong><p>$9/month or back to 3 conversions/day.</p></div>
+      <div class="card"><strong>Not included</strong><p>OCR of scanned books, 2GB video, public API.</p></div>
+    </div>
+  </div>
 </body>
 </html>

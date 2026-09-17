@@ -1,4 +1,4 @@
-# Offer
+# FileForge offer
 
-Problem: people search “convert jpg to pdf” / “pdf converter” at massive volume.
-MVP: JPG↔PDF, PNG↔JPG, TXT↔PDF. No account required for 3 runs.
+Download: http://pannki.com/fileforge.zip
+Founders: 180 days unlimited. Then $9/mo.
